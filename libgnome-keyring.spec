@@ -1,11 +1,11 @@
 Summary:	Keep passwords and other user's secrets
 Name:		libgnome-keyring
-Version:	3.4.1
-Release:	2
+Version:	3.8.0
+Release:	1
 License:	LGPL v2+/GPL v2+
 Group:		Libraries
-Source0:	http://ftp.gnome.org/pub/gnome/sources/libgnome-keyring/3.4/%{name}-%{version}.tar.xz
-# Source0-md5:	b7c5abd89fd92344b15e7adf3079a54a
+Source0:	http://ftp.gnome.org/pub/gnome/sources/libgnome-keyring/3.8/%{name}-%{version}.tar.xz
+# Source0-md5:	caec6bcfac4d1fce6927c2338bdc5058
 URL:		http://www.gnome.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -81,6 +81,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/gir-1.0/*.gir
 %{_includedir}/gnome-keyring-1
 %{_pkgconfigdir}/gnome-keyring-1.pc
+%{_datadir}/vala/vapi/gnome-keyring-1.vapi
 
 %files apidocs
 %defattr(644,root,root,755)
