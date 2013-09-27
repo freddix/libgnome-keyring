@@ -1,20 +1,21 @@
 Summary:	Keep passwords and other user's secrets
 Name:		libgnome-keyring
-Version:	3.8.0
+Version:	3.10.0
 Release:	1
 License:	LGPL v2+/GPL v2+
 Group:		Libraries
-Source0:	http://ftp.gnome.org/pub/gnome/sources/libgnome-keyring/3.8/%{name}-%{version}.tar.xz
-# Source0-md5:	caec6bcfac4d1fce6927c2338bdc5058
+Source0:	http://ftp.gnome.org/pub/gnome/sources/libgnome-keyring/3.10/%{name}-%{version}.tar.xz
+# Source0-md5:	fc798878a5c5a11a2661cdd72bd38fd6
 URL:		http://www.gnome.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	dbus-devel
 BuildRequires:	gettext-devel
-BuildRequires:	gobject-introspection-devel
+BuildRequires:	gobject-introspection-devel >= 1.38.0
 BuildRequires:	libgcrypt-devel
 BuildRequires:	libtool
 BuildRequires:	pkg-config
+BuildRequires:	vala-vapigen >= 0.22.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
