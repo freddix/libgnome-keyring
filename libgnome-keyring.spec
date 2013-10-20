@@ -1,11 +1,11 @@
 Summary:	Keep passwords and other user's secrets
 Name:		libgnome-keyring
-Version:	3.10.0
+Version:	3.10.1
 Release:	1
 License:	LGPL v2+/GPL v2+
 Group:		Libraries
 Source0:	http://ftp.gnome.org/pub/gnome/sources/libgnome-keyring/3.10/%{name}-%{version}.tar.xz
-# Source0-md5:	fc798878a5c5a11a2661cdd72bd38fd6
+# Source0-md5:	9b7834bf6630160878a0aa7cb5df7dfc
 URL:		http://www.gnome.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
